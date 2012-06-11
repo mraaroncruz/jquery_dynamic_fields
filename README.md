@@ -34,16 +34,20 @@ class Task
   belongs_to :task_list
 end
 
-# app/views/task_list
+```
+
+```erb
+<%# app/views/task_list %>
+
 <%= form_for @task_list do |f| %>
   <%= link_to_add_fields "Add a task", f, :tasks %>
   <%= f.submit "Save!" %>
 <% end %>
 
-# the partial name must match (relation singular)_fields so in this case "task"
-# and be in the same directory as the template calling #link_to_add_fields
+<%# the partial name must match (relation singular)_fields so in this case "task"
+    and be in the same directory as the template calling #link_to_add_fields %>
 
-# app/views/task_list/_task_fields.html.erb
+<%# app/views/task_list/_task_fields.html.erb %>
 <fieldset>
   <%= f.text_field :label %>
   <%= link_to_delete_field f %>
