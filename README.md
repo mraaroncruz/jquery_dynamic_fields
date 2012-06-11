@@ -25,12 +25,12 @@ In your pipeline
 ## How to use
 
 ```ruby
-class TaskList
+class TaskList < ActiveRecord::Base
   has_many :tasks
   accepts_nested_attributes_for :tasks
 end
 
-class Task
+class Task < ActiveRecord::Base
   belongs_to :task_list
 end
 
