@@ -4,9 +4,9 @@ require File.expand_path('../lib/jquery_dynamic_fields/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Aaron Cruz"]
   gem.email         = ["aaron@aaroncruz.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Dynamically add and remove form fields in a Rails 3.1+ app}
+  gem.summary       = %q{Dynamically add and remove form fields in a Rails 3.1+ app}
+  gem.homepage      = "https://github.com/pferdefleisch/jquery_dynamic_fields"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
