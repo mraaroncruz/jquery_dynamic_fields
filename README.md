@@ -1,6 +1,8 @@
 # JqueryDynamicFields
 
-WIP: very alpha bro
+Most of code pulled from [Railscasts 196 (revised)](http://railscasts.com/episodes/196-nested-model-form-revised)
+
+__WIP__: very alpha bro
 
 ## Compatibility
 
