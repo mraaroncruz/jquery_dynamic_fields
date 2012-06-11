@@ -1,6 +1,6 @@
 # JqueryDynamicFields
 
-TODO: Write a gem description
+WIP: very alpha bro
 
 ## Installation
 
@@ -15,10 +15,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install jquery_dynamic_fields
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
