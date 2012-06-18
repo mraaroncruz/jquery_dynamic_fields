@@ -14,4 +14,11 @@ Gem::Specification.new do |gem|
   gem.name          = "jquery_dynamic_fields"
   gem.require_paths = ["lib"]
   gem.version       = JqueryDynamicFields::VERSION
+
+  gem.add_development_dependency 'rails', '~> 3.2'
+  gem.add_development_dependency 'sqlite3'
+  gem.add_development_dependency 'guard-rspec'
+  gem.add_development_dependency 'rspec-rails'
+  gem.add_development_dependency 'guard-rspec'
+  gem.add_development_dependency 'capybara'
 end
