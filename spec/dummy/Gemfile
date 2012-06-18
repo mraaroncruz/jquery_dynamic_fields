@@ -40,6 +40,7 @@ gem 'jquery-rails'
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'database_cleaner'
 end
 
 gem 'jquery_dynamic_fields', path: "../.."
