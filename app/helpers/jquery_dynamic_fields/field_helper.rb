@@ -1,4 +1,4 @@
-module JqueryDynamicFieldsHelper
+module JqueryDynamicFields
   module FieldHelper
     def link_to_add_fields name, f, association
       new_object = f.object.send(association).class.new
